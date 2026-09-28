@@ -1,0 +1,135 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 900 260"
+  width="900"
+  height="260"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Hora do QA</title>
+  <desc id="desc">
+    Logo editorial e técnica para Hora do QA, com marcador de status PASS.
+  </desc>
+
+  <!--
+    HORA DO QA
+    Identidade:
+    Verde profundo: #0F3D2E
+    Verde musgo:    #3F6F52
+    Verde sinal:    #8FE3B0
+    Dourado:        #C99A44
+    Marfim:         #F3EFE6
+    Tinta:          #12201A
+  -->
+
+  <!-- Fundo -->
+  <rect
+    width="900"
+    height="260"
+    rx="28"
+    fill="#0F3D2E"
+  />
+
+  <!-- Moldura editorial -->
+  <rect
+    x="24"
+    y="24"
+    width="852"
+    height="212"
+    rx="18"
+    fill="none"
+    stroke="#3F6F52"
+    stroke-width="2"
+  />
+
+  <!-- Pequeno marcador técnico -->
+  <g transform="translate(58 58)">
+    <rect
+      width="155"
+      height="32"
+      rx="5"
+      fill="#12201A"
+      stroke="#3F6F52"
+      stroke-width="1"
+    />
+
+    <circle
+      cx="17"
+      cy="16"
+      r="5"
+      fill="#8FE3B0"
+    />
+
+    <text
+      x="31"
+      y="21"
+      font-family="'JetBrains Mono', 'Courier New', monospace"
+      font-size="13"
+      font-weight="600"
+      letter-spacing="1.5"
+      fill="#8FE3B0"
+    >
+      STATUS: PASS
+    </text>
+  </g>
+
+  <!-- Linha editorial -->
+  <line
+    x1="58"
+    y1="112"
+    x2="842"
+    y2="112"
+    stroke="#3F6F52"
+    stroke-width="1"
+  />
+
+  <!-- Wordmark -->
+  <text
+    x="58"
+    y="184"
+    font-family="'Newsreader', Georgia, serif"
+    font-size="78"
+    font-style="italic"
+    font-weight="500"
+    letter-spacing="-2"
+    fill="#F3EFE6"
+  >
+    Hora do
+  </text>
+
+  <text
+    x="378"
+    y="184"
+    font-family="'Newsreader', Georgia, serif"
+    font-size="78"
+    font-style="italic"
+    font-weight="600"
+    letter-spacing="-2"
+    fill="#8FE3B0"
+  >
+    QA
+  </text>
+
+  <!-- Detalhe dourado -->
+  <rect
+    x="58"
+    y="204"
+    width="72"
+    height="4"
+    rx="2"
+    fill="#C99A44"
+  />
+
+  <!-- Microtexto técnico -->
+  <text
+    x="842"
+    y="211"
+    text-anchor="end"
+    font-family="'JetBrains Mono', 'Courier New', monospace"
+    font-size="11"
+    letter-spacing="2"
+    fill="#3F6F52"
+  >
+    TEST • REPORT • DISCOVER
+  </text>
+</svg>
